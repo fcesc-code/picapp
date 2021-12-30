@@ -59,6 +59,8 @@ testem.log
 .awcache
 #sass
 /.sass-cache
+#angular
+/.angular/cache
 
 #project media files
 images/
