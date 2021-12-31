@@ -26,7 +26,6 @@ export class ImageComponent implements OnInit {
       }
 
       this.image = image;
-      console.table(this.image);
       return;
     });
   }

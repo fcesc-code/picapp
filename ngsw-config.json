@@ -11,8 +11,10 @@
           "/index.html",
           "/manifest.webmanifest",
           "/*.css",
-          "/*.js"
-        ]
+          "/*.js",
+          "./node_modules/bootstrap/dist/css/bootstrap.min.css"
+        ],
+        "urls": [""]
       }
     },
     {
@@ -24,6 +26,18 @@
           "/assets/**",
           "/*.(svg|cur|jpg|jpeg|png|apng|webp|avif|gif|otf|ttf|woff|woff2)"
         ]
+      }
+    }
+  ],
+  "dataGroups": [
+    {
+      "name": "images-api",
+      "urls": ["https://picsum.photos/**"],
+      "cacheConfig": {
+        "maxSize": 10,
+        "maxAge": "1h",
+        "timeout": "1s",
+        "strategy": "freshness"
       }
     }
   ]
