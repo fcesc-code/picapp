@@ -38,7 +38,7 @@
     "@types/node": "^20.1.4",
     "animate.css": "^4.1.1",
     "bootstrap": "^5.2.3",
-    "bootstrap-icons": "^1.7.2",
+    "bootstrap-icons": "^1.10.5",
     "http-server": "^14.1.1",
     "husky": "^7.0.4",
     "jasmine-core": "~4.6.0",
